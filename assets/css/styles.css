@@ -602,3 +602,37 @@ body.dark-theme {
     right: 2rem;
   }
 }
+/*=============== ANIMATIONS ===============*/
+/* idk if this will work */
+@keyframes slideInLeft {
+  from{
+    transform: translateX(-125%);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+.animations-1 {
+  animation: slideInLeft 0.75s ease-in 0s 1 normal both;
+
+  transform: translateX(-100%)
+
+}
+.hidden2{
+  opacity:0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  transition: all 1s;
+}
+.hidden{
+  opacity:0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
