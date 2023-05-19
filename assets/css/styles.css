@@ -134,6 +134,9 @@ body.dark-theme {
 .svg__blob {
   fill: var(--first-color-light);
 }
+.svg__poop {
+  fill: var(--first-color-lighten);
+}
 
 .svg__img {
   width: 300px;
