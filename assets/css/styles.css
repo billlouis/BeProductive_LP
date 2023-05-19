@@ -618,13 +618,28 @@ body.dark-theme {
   transform: translateX(-100%)
 
 }
+.hidden3{
+  opacity:0;
+  filter: blur(5px);
+  transform: translateY(100%);
+  transition: all 1s;
+
+}
 .hidden2{
   opacity:0;
   filter: blur(5px);
   transform: translateX(100%);
   transition: all 1s;
+
 }
 .hidden{
+  opacity:0;
+  filter: blur(5px);
+  transform: translateY(-100%);
+  transition: all 1s;
+
+}
+.hidden4{
   opacity:0;
   filter: blur(5px);
   transform: translateX(-100%);
